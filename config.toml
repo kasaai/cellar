@@ -1,0 +1,25 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Kasa AI Cellar"
+theme = "hugo-xmin"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+footnotereturnlinkcontents = "↩"
+
+[permalinks]
+    post = "/post/:slug/"
+    note = "/note/:slug/"
+
+[[menu.main]]
+    name = "About"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "Datasets"
+    url = "/dataset/"
+    weight = 2
+
+[params]
+    description = "Community-curated open data for insurance."
+    footer = "&copy; Kasa AI 2019"
