@@ -1,7 +1,38 @@
 ---
-title: About
+title: Cellar
 ---
 
-# Cellar
+```{r setup, include = FALSE}
+options(pins.progress=FALSE)
+```
 
-TODO
+Cellar is a collection of community-curated open datasets for insurance
+analytics. It promotes usability and discoverability of insurance
+datasets by conforming to tidy data principles and making data available via a
+uniform interface.
+
+## data.txt and pins
+
+Cellar is organized according to the [data.txt specification](https://datatxt.org/),
+which outlines how websites describe their data content. The [datasets](dataset/),
+which are documented on this site,
+can be accesed via the pins package (available in [R](https://rstudio.github.io/pins/)
+and [Python](https://rstudio.github.io/pins/#python)).
+
+For example, to access the [Schedule P dataset](https://cellar.kasa.ai/dataset/schedule_p/), you can execute the
+following:
+
+```{r, message = FALSE}
+# install.packages("pins")
+library(pins)
+library(dplyr)
+board_register_datatxt("cellar", "https://cellar.kasa.ai")
+schedule_p <- pin_get("schedule_p", board = "cellar")
+glimpse(schedule_p)
+```
+
+## Contributing
+
+We are in the process of migrating data from various online sources to Cellar.
+If you have suggestions on datasets to prioritize, or would like to help out,
+please reach out. We are on [GitHub](https://github.com/kasaai/cellar), [Twitter](https://twitter.com/kasaai_), and [Slack](https://slack.kasa.ai).

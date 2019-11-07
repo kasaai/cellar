@@ -12,7 +12,7 @@ footnotereturnlinkcontents = "↩"
     note = "/note/:slug/"
 
 [[menu.main]]
-    name = "About"
+    name = "Cellar"
     url = "/"
     weight = 1
 [[menu.main]]
