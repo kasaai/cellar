@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Kasa AI Cellar"
+title = "Cellar"
 theme = "hugo-xmin"
 googleAnalytics = ""
 disqusShortname = ""
