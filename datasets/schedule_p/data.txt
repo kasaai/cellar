@@ -1,0 +1,23 @@
+path:
+- https://github.com/kasaai/cellar/releases/download/schedule_p-3d85741/data.csv
+- https://github.com/kasaai/cellar/releases/download/schedule_p-3d85741/data.rds
+rows: 77900
+cols: 16
+columns:
+  lob: character
+  group_code: character
+  group_name: character
+  accident_year: integer
+  development_year: integer
+  development_lag: integer
+  incurred_loss: numeric
+  cumulative_paid_loss: numeric
+  bulk_loss: numeric
+  earned_premium_direct: numeric
+  earned_premium_ceded: numeric
+  earned_premium_net: numeric
+  single: integer
+  posted_reserve_97: numeric
+  calendar_year: numeric
+  incremental_paid_loss: numeric
+type: table
