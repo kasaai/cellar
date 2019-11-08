@@ -15,4 +15,6 @@ LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1
 Imports: 
-    pins
+    pins (>= 0.2.0.5)
+Remotes:  
+    rstudio/pins
