@@ -23,7 +23,7 @@ columns:
     description: Development lag.
   - name: incurred_loss
     type: numeric
-    type: Incurred losses and allocated expenses reported at year end.
+    description: Incurred losses and allocated expenses reported at year end.
   - name: cumulative_paid_loss
     type: numeric
     description: Cumulative paid losses and allocated expenses at year end.
