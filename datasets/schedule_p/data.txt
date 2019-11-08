@@ -53,4 +53,5 @@ columns:
   - name: incremental_paid_loss
     type: numeric
     description: Incremental paid loss.
+source: Casualty Actuarial Society, http://www.casact.org/research/index.cfm?fa=loss_reserves_data
 type: table
