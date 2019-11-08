@@ -32,15 +32,15 @@ columns:
     description: Bulk and IBNR reserves on net losses and defense and cost containment expenses reported at year end.
   - name: earned_premium_direct
     type: numeric
-    description: >-
+    description: |-
       Premiums earned at incurral year: direct and assumed.
   - name: earned_premium_ceded
     type: numeric
-    description: >- 
+    description: |- 
       Premiums earned at incurral year: ceded.
   - name: earned_premium_net
     type: numeric
-    description: >-
+    description: |-
       Premiums earned at incurral year: net.
   - name: single
     type: integer
