@@ -51,4 +51,3 @@ columns:
     description: Policy year; derived as the starting year in `lapse_study_year`.
 source: "Society of Actuaries, https://www.soa.org/experience-studies/2014/research-2014-post-level-shock/"
 type: table
-
