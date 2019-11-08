@@ -14,3 +14,11 @@
   rows: 77900
   cols: 16
   type: table
+
+- path: https://raw.githubusercontent.com/kasaai/cellar/master/datasets/lapse_study
+  name: lapse_study
+  title: SOA Lapse Study Data
+  description: Lapse experience data associated with Society of Actuaries' Report on the Lapse and Mortality Experience of Post-Level Premium Period Term Plans (2014).
+  rows: 345627
+  cols: 15
+  type: table
