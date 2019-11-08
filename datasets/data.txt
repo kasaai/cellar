@@ -1,0 +1,5 @@
+- path: datasets/lapse_study
+  name: lapse_study
+  rows: 345627
+  cols: 15
+  type: table
