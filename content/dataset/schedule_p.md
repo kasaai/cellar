@@ -4,7 +4,14 @@ title: Schedule P Data
 
 ## Description
 
-Triangle data from Schedule P for various companies, from accident years 1988-1997. Each triangle contains 10 development lags.
+Triangle data from Schedule P for various companies, from accident years 1988-1997.
+Each triangle contains 10 development lags. The lines of business included are
+- Private passenger auto liability/medical
+- Commercial auto/truck liability/medical
+- Workers' compensation
+- Medical malpractice – claims made
+- Other liability – occurrence
+- Product liability – occurrence
 
 ## Columns
 
