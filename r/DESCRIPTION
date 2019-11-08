@@ -1,0 +1,18 @@
+Package: cellar
+Title: Interface for the Kasa AI Cellar
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Kevin",
+           family = "Kuo",
+           role = c("aut", "cre"),
+           email = "kevin@kasa.ai",
+           comment = c(ORCID = "0000-0001-7803-7901"))
+Description: Retrieve datasets from the Kasa AI Cellar, a curated collection of
+    open datasets for insurance analytics.
+License: Apache License (>= 2.0)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
+Imports: 
+    pins

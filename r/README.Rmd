@@ -1,0 +1,44 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+
+options(pins.progress=FALSE)
+```
+
+# cellar
+
+<!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![CRAN status](https://www.r-pkg.org/badges/version/cellar)](https://CRAN.R-project.org/package=cellar)
+<!-- badges: end -->
+
+The cellar package provides an interface for accessing datasets in the [Kasa AI
+Cellar](https://cellar.kasa.ai).
+
+## Installation
+
+You can install the development version from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("remotes")
+remotes::install_github("kasaai/cellar/r")
+```
+## Example
+
+For example, to access the [Schedule P dataset](https://cellar.kasa.ai/dataset/schedule_p/), you can run:
+
+```{r example}
+library(cellar)
+schedule_p <- cellar_pull("schedule_p")
+dplyr::glimpse(schedule_p)
+```
