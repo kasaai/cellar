@@ -16,22 +16,22 @@ Each triangle contains 10 development lags. The lines of business included are
 
 ## Columns
 
-- `lob` <character> Line of business.
-- `group_code` <character> NAIC company code.
-- `group_name` <character> Company name.
-- `accident_year` <integer> Accident year.
-- `development_year` <integer> Development year.
-- `development_lag` <integer> Development lag.
-- `incurred_loss` <numeric> Incurred losses and allocated expenses reported at year end.
-- `cumulative_paid_loss` <numeric> Cumulative paid losses and allocated expenses at year end.
-- `bulk_loss` <numeric> Bulk and IBNR reserves on net losses and defense and cost containment expenses reported at year end.
-- `earned_premium_direct` <numeric> Premiums earned at incurral year: direct and assumed.
-- `earned_premium_ceded` <numeric> Premiums earned at incurral year: ceded.
-- `earned_premium_net` <numeric> Premiums earned at incurral year: net.
-- `single` <integer> 1 indicates a single entity, 0 indicates a group insurer.
-- `posted_reserve_97` <numeric> Posted reserves in year 1997 taken from the Underwriting and Investment exhibit.
-- `calendar_year` <numeric> Calendar year.
-- `incremental_paid_loss` <numeric> Incremental paid loss.
+- `lob` &lt;character&gt; Line of business.
+- `group_code` &lt;character&gt; NAIC company code.
+- `group_name` &lt;character&gt; Company name.
+- `accident_year` &lt;integer&gt; Accident year.
+- `development_year` &lt;integer&gt; Development year.
+- `development_lag` &lt;integer&gt; Development lag.
+- `incurred_loss` &lt;numeric&gt; Incurred losses and allocated expenses reported at year end.
+- `cumulative_paid_loss` &lt;numeric&gt; Cumulative paid losses and allocated expenses at year end.
+- `bulk_loss` &lt;numeric&gt; Bulk and IBNR reserves on net losses and defense and cost containment expenses reported at year end.
+- `earned_premium_direct` &lt;numeric&gt; Premiums earned at incurral year: direct and assumed.
+- `earned_premium_ceded` &lt;numeric&gt; Premiums earned at incurral year: ceded.
+- `earned_premium_net` &lt;numeric&gt; Premiums earned at incurral year: net.
+- `single` &lt;integer&gt; 1 indicates a single entity, 0 indicates a group insurer.
+- `posted_reserve_97` &lt;numeric&gt; Posted reserves in year 1997 taken from the Underwriting and Investment exhibit.
+- `calendar_year` &lt;numeric&gt; Calendar year.
+- `incremental_paid_loss` &lt;numeric&gt; Incremental paid loss.
 
 ## Summary
 
