@@ -1,8 +1,7 @@
+name: schedule_p
 path:
 - https://github.com/kasaai/cellar/releases/download/schedule_p-3d85741/data.csv
 - https://github.com/kasaai/cellar/releases/download/schedule_p-3d85741/data.rds
-rows: 77900
-cols: 16
 columns:
   - name: lob
     type: character
@@ -54,4 +53,3 @@ columns:
     type: numeric
     description: Incremental paid loss.
 source: Casualty Actuarial Society, http://www.casact.org/research/index.cfm?fa=loss_reserves_data
-type: table
