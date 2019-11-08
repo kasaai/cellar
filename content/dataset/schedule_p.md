@@ -4,7 +4,34 @@ title: Schedule P Data
 
 ## Description
 
-Triangle data from Schedule P for various companies, from accident years 1988-1997. Each triangle contains 10 development lags.
+Triangle data from Schedule P for various companies, from accident years 1988-1997.
+Each triangle contains 10 development lags. The lines of business included are
+
+- Private passenger auto liability/medical
+- Commercial auto/truck liability/medical
+- Workers' compensation
+- Medical malpractice – claims made
+- Other liability – occurrence
+- Product liability – occurrence
+
+## Columns
+
+- `lob` &lt;character&gt; Line of business.
+- `group_code` &lt;character&gt; NAIC company code.
+- `group_name` &lt;character&gt; Company name.
+- `accident_year` &lt;integer&gt; Accident year.
+- `development_year` &lt;integer&gt; Development year.
+- `development_lag` &lt;integer&gt; Development lag.
+- `incurred_loss` &lt;numeric&gt; Incurred losses and allocated expenses reported at year end.
+- `cumulative_paid_loss` &lt;numeric&gt; Cumulative paid losses and allocated expenses at year end.
+- `bulk_loss` &lt;numeric&gt; Bulk and IBNR reserves on net losses and defense and cost containment expenses reported at year end.
+- `earned_premium_direct` &lt;numeric&gt; Premiums earned at incurral year: direct and assumed.
+- `earned_premium_ceded` &lt;numeric&gt; Premiums earned at incurral year: ceded.
+- `earned_premium_net` &lt;numeric&gt; Premiums earned at incurral year: net.
+- `single` &lt;integer&gt; 1 indicates a single entity, 0 indicates a group insurer.
+- `posted_reserve_97` &lt;numeric&gt; Posted reserves in year 1997 taken from the Underwriting and Investment exhibit.
+- `calendar_year` &lt;numeric&gt; Calendar year.
+- `incremental_paid_loss` &lt;numeric&gt; Incremental paid loss.
 
 ## Summary
 
@@ -42,3 +69,7 @@ Variable type: numeric
 | incremental_paid_loss |    0    |  77900   | 77900 |  1930.8  | 56629.76  | -39688 |  0   |  0   |  92  | 4491070 | ▇▁▁▁▁▁▁▁ |
 |     incurred_loss     |    0    |  77900   | 77900 | 20039.13 | 339970.95 | -12899 |  0   | 233  | 2500 | 1.2e+07 | ▇▁▁▁▁▁▁▁ |
 |   posted_reserve_97   |    0    |  77900   | 77900 | 41175.83 |   5e+05   |   0    | 113  | 1065 | 6375 | 1.4e+07 | ▇▁▁▁▁▁▁▁ |
+
+## Source
+
+Casualty Actuarial Society, http://www.casact.org/research/index.cfm?fa=loss_reserves_data
