@@ -48,8 +48,7 @@ columns:
   - name: posted_reserve_97
     type: numeric
     description: >- 
-      Posted reserves in year 1997 taken from the Underwriting and Investment 
-      exhibit.
+      Posted reserves in year 1997 taken from the Underwriting and Investment exhibit.
   - name: calendar_year
     type: numeric
     description: Calendar year.
