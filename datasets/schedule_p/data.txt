@@ -4,20 +4,53 @@ path:
 rows: 77900
 cols: 16
 columns:
-  lob: character
-  group_code: character
-  group_name: character
-  accident_year: integer
-  development_year: integer
-  development_lag: integer
-  incurred_loss: numeric
-  cumulative_paid_loss: numeric
-  bulk_loss: numeric
-  earned_premium_direct: numeric
-  earned_premium_ceded: numeric
-  earned_premium_net: numeric
-  single: integer
-  posted_reserve_97: numeric
-  calendar_year: numeric
-  incremental_paid_loss: numeric
+  - name: lob
+    type: character
+    description: Line of business.
+  - name: group_code
+    type: character
+    description: NAIC company code.
+  - name: group_name
+    type: character
+    description: Company name.
+  - name: accident_year
+    type: integer
+    description: Accident year.
+  - name: development_year
+    type: integer
+    description: Development year.
+  - name: development_lag
+    type: integer
+    description: Development lag.
+  - name: incurred_loss
+    type: numeric
+    type: Incurred losses and allocated expenses reported at year end.
+  - name: cumulative_paid_loss
+    type: numeric
+    description: Cumulative paid losses and allocated expenses at year end.
+  - name: bulk_loss
+    type: numeric
+    description: Bulk and IBNR reserves on net losses and defense and cost containment expenses reported at year end.
+  - name: earned_premium_direct
+    type: numeric
+    description: Premiums earned at incurral year: direct and assumed.
+  - name: earned_premium_ceded
+    type: numeric
+    description: Premiums earned at incurral year: ceded.
+  - name: earned_premium_net
+    type: numeric
+    description: Premiums earned at incurral year: net.
+  - name: single
+    type: integer
+    description: 1 indicates a single entity, 0 indicates a group insurer.
+  - name: posted_reserve_97
+    type: numeric
+    description: Posted reserves in year 1997 taken from the Underwriting and 
+    Investment exhibit.
+  - name: calendar_year
+    type: numeric
+    description: Calendar year.
+  - name: incremental_paid_loss
+    type: numeric
+    description: Incremental paid loss.
 type: table
