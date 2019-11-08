@@ -18,19 +18,15 @@ uniform interface.
 Cellar is organized according to the [data.txt specification](https://datatxt.org/),
 which outlines how websites describe their data content. The [datasets](dataset/),
 which are documented on this site,
-can be accesed via the pins package (available in [R](https://rstudio.github.io/pins/)
-and [Python](https://rstudio.github.io/pins/#python)).
+can be accesed via the [cellar R package](https://github.com/kasaai/cellar/tree/master/r).
 
 For example, to access the [Schedule P dataset](https://cellar.kasa.ai/dataset/schedule_p/), you can execute the
 following:
 
 ```{r, message = FALSE}
-# install.packages("pins")
-library(pins)
-library(dplyr)
-board_register_datatxt("cellar", "https://cellar.kasa.ai")
-schedule_p <- pin_get("schedule_p", board = "cellar")
-glimpse(schedule_p)
+library(cellar)
+schedule_p <- cellar_pull("schedule_p")
+dplyr::glimpse(schedule_p)
 ```
 
 ## Contributing
