@@ -6,6 +6,25 @@ title: Schedule P Data
 
 Triangle data from Schedule P for various companies, from accident years 1988-1997. Each triangle contains 10 development lags.
 
+## Columns
+
+- `lob` <character> Line of business.
+- `group_code` <character> NAIC company code.
+- `group_name` <character> Company name.
+- `accident_year` <integer> Accident year.
+- `development_year` <integer> Development year.
+- `development_lag` <integer> Development lag.
+- `incurred_loss` <numeric> Incurred losses and allocated expenses reported at year end.
+- `cumulative_paid_loss` <numeric> Cumulative paid losses and allocated expenses at year end.
+- `bulk_loss` <numeric> Bulk and IBNR reserves on net losses and defense and cost containment expenses reported at year end.
+- `earned_premium_direct` <numeric> Premiums earned at incurral year: direct and assumed.
+- `earned_premium_ceded` <numeric> Premiums earned at incurral year: ceded.
+- `earned_premium_net` <numeric> Premiums earned at incurral year: net.
+- `single` <integer> 1 indicates a single entity, 0 indicates a group insurer.
+- `posted_reserve_97` <numeric> Posted reserves in year 1997 taken from the Underwriting and Investment exhibit.
+- `calendar_year` <numeric> Calendar year.
+- `incremental_paid_loss` <numeric> Incremental paid loss.
+
 ## Summary
 
 Skim summary statistics  
@@ -42,3 +61,7 @@ Variable type: numeric
 | incremental_paid_loss |    0    |  77900   | 77900 |  1930.8  | 56629.76  | -39688 |  0   |  0   |  92  | 4491070 | ▇▁▁▁▁▁▁▁ |
 |     incurred_loss     |    0    |  77900   | 77900 | 20039.13 | 339970.95 | -12899 |  0   | 233  | 2500 | 1.2e+07 | ▇▁▁▁▁▁▁▁ |
 |   posted_reserve_97   |    0    |  77900   | 77900 | 41175.83 |   5e+05   |   0    | 113  | 1065 | 6375 | 1.4e+07 | ▇▁▁▁▁▁▁▁ |
+
+## Source
+
+Casualty Actuarial Society, http://www.casact.org/research/index.cfm?fa=loss_reserves_data
