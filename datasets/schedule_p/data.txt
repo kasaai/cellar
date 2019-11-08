@@ -47,7 +47,7 @@ columns:
     description: 1 indicates a single entity, 0 indicates a group insurer.
   - name: posted_reserve_97
     type: numeric
-    description: >- 
+    description: |- 
       Posted reserves in year 1997 taken from the Underwriting and Investment 
       exhibit.
   - name: calendar_year
