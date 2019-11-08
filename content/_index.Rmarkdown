@@ -24,6 +24,9 @@ For example, to access the [Schedule P dataset](https://cellar.kasa.ai/dataset/s
 following:
 
 ```{r, message = FALSE}
+# install.packages("remotes")
+# remotes::install_github("kasaai/cellar/r")
+
 library(cellar)
 schedule_p <- cellar_pull("schedule_p")
 dplyr::glimpse(schedule_p)

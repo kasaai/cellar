@@ -23,6 +23,9 @@ following:
 
 
 ```r
+# install.packages("remotes")
+# remotes::install_github("kasaai/cellar/r")
+
 library(cellar)
 schedule_p <- cellar_pull("schedule_p")
 dplyr::glimpse(schedule_p)
