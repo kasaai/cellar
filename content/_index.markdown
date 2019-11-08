@@ -11,7 +11,7 @@ analytics. It promotes usability and discoverability of insurance
 datasets by conforming to tidy data principles and making data available via a
 uniform interface.
 
-## data.txt and pins
+## data.txt and cellar
 
 Cellar is organized according to the [data.txt specification](https://datatxt.org/),
 which outlines how websites describe their data content. The [datasets](dataset/),
