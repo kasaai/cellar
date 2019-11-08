@@ -1,0 +1,22 @@
+path:
+- https://github.com/kasaai/cellar/releases/download/lapse_study-152ea03/data.csv
+- data.rds
+rows: 345627
+cols: 15
+columns:
+  lapse_study_year: character
+  duration: character
+  gender: character
+  issue_year: character
+  issue_age: character
+  face_amount: character
+  post_level_premium_structure: character
+  premium_jump_ratio: character
+  risk_class: character
+  premium_mode: character
+  exposure_amount: numeric
+  exposure_count: numeric
+  lapse_amount: numeric
+  lapse_count: numeric
+  policy_year: integer
+type: table
