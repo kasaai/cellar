@@ -4,6 +4,8 @@ title: SOA Lapse Study Data
 
 ## Description
 
+Identifier: `lapse_study`
+
 Lapse experience data associated with Society of Actuaries' Report on the Lapse and Mortality Experience of Post-Level Premium Period Term Plans (2014).
 
 ## Columns

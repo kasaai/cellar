@@ -4,6 +4,8 @@ title: Schedule P Data
 
 ## Description
 
+Identifier: `schedule_p`
+
 Triangle data from Schedule P for various companies, from accident years 1988-1997.
 Each triangle contains 10 development lags. The lines of business included are
 

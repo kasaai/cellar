@@ -4,6 +4,8 @@ title: French Third-Party Liability (Policies)
 
 ## Description
 
+Identifier: `fr_tpl2_policies`
+
 Policy-level data for third-party liability (TPL) claims for an unknown
 insurer in France. Contains policyholder characteristics along with claim
 count over a one year period. Can be joined with `fr_tpl2_claims`.
