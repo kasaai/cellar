@@ -1,6 +1,6 @@
 path:
-- https://github.com/kasaai/cellar/releases/download/fr_tpl2_policies-c9d2bc8/data.csv
-- https://github.com/kasaai/cellar/releases/download/fr_tpl2_policies-c9d2bc8/data.rds
+- "https://github.com/kasaai/cellar/releases/download/fr_tpl2_policies-c9d2bc8/data.csv"
+- "https://github.com/kasaai/cellar/releases/download/fr_tpl2_policies-c9d2bc8/data.rds"
 rows: 678013
 cols: 12
 columns:
