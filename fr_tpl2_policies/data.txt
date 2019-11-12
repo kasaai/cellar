@@ -1,6 +1,6 @@
 path:
-- https://github.com/kasaai/cellar/releases/download/fr_tpl2_policies-4327522/data.csv
-- https://github.com/kasaai/cellar/releases/download/fr_tpl2_policies-4327522/data.rds
+- https://github.com/kasaai/cellar/releases/download/fr_tpl2_policies-c9d2bc8/data.csv
+- https://github.com/kasaai/cellar/releases/download/fr_tpl2_policies-c9d2bc8/data.rds
 rows: 678013
 cols: 12
 columns:
@@ -8,7 +8,7 @@ columns:
   num_claims: numeric
   exposure: numeric
   area: character
-  vehicle_power: integer
+  vehicle_power: character
   vehicle_age: integer
   driver_age: integer
   bonus_malus: integer
