@@ -11,3 +11,4 @@ columns:
     type: numeric
     description: Claim amount.
 type: table
+source: "R package 'CASdatasets', http://dutangc.free.fr/pub/RRepos/web/CASdatasets-index.html"

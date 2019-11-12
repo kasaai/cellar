@@ -41,3 +41,4 @@ columns:
     type: character
     description: "Policy region in France (1970-2015 classification)."
 type: table
+source: "R package 'CASdatasets', http://dutangc.free.fr/pub/RRepos/web/CASdatasets-index.html"
