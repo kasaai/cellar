@@ -1,0 +1,13 @@
+path:
+- https://github.com/kasaai/cellar/releases/download/fr_tpl2_claims-70f6565/data.csv
+- https://github.com/kasaai/cellar/releases/download/fr_tpl2_claims-70f6565/data.rds
+rows: 26639
+cols: 2
+columns:
+  - name: policy_id
+    type: integer
+    description: Policy ID.
+  - name: claim_amount
+    type: numeric
+    description: Claim amount.
+type: table
