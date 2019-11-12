@@ -3,3 +3,8 @@
   rows: 678013
   cols: 12
   type: table
+- path: fr_tpl2_claims
+  name: fr_tpl2_claims
+  rows: 26639
+  cols: 2
+  type: table
