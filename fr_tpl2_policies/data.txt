@@ -1,0 +1,19 @@
+path:
+- https://github.com/kasaai/cellar/releases/download/fr_tpl2_policies-4327522/data.csv
+- https://github.com/kasaai/cellar/releases/download/fr_tpl2_policies-4327522/data.rds
+rows: 678013
+cols: 12
+columns:
+  policy_id: numeric
+  num_claims: numeric
+  exposure: numeric
+  area: character
+  vehicle_power: integer
+  vehicle_age: integer
+  driver_age: integer
+  bonus_malus: integer
+  vehicle_brand: character
+  vehicle_gas: character
+  density: integer
+  region: character
+type: table
