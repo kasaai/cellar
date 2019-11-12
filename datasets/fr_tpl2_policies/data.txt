@@ -36,7 +36,7 @@ columns:
     description: Gasoline type, either diesel or regular.
   - name: density
     type: integer
-    description: Population density of the garage area code in people per km^2.
+    description: "Population density of the garage area code in people per km^2."
   - name: region
     type: character
     description: "Policy region in France (1970-2015 classification)."
