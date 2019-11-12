@@ -1,0 +1,9 @@
+path:
+- https://github.com/kasaai/cellar/releases/download/fr_tpl2_claims-70f6565/data.csv
+- https://github.com/kasaai/cellar/releases/download/fr_tpl2_claims-70f6565/data.rds
+rows: 26639
+cols: 2
+columns:
+  policy_id: integer
+  claim_amount: numeric
+type: table
