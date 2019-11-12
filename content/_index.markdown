@@ -8,8 +8,8 @@ title: Cellar
 
 Cellar is a collection of community-curated open datasets for insurance
 analytics. It promotes usability and discoverability of insurance
-datasets by conforming to tidy data principles and making data available via a
-uniform interface.
+datasets by conforming to tidy data principles, making data available via a
+uniform interface, and collating documentations in one place.
 
 ## data.txt and cellar
 
