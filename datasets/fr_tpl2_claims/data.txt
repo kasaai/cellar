@@ -4,6 +4,10 @@ path:
 rows: 26639
 cols: 2
 columns:
-  policy_id: integer
-  claim_amount: numeric
+  - name: policy_id
+    type: integer
+    description: Policy ID.
+  - name: claim_amount
+    type: numeric
+    description: Claim amount.
 type: table

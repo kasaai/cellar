@@ -21,3 +21,21 @@
   rows: 345627
   cols: 15
   type: table
+- path: https://raw.githubusercontent.com/kasaai/cellar/master/datasets/fr_tpl2_policies
+  name: fr_tpl2_policies
+  title: French Third-Party Liability (Policies)
+  description: |-
+    Policy-level data for third-party liability (TPL) claims for an unknown
+    insurer in France. Contains policyholder characteristics along with claim
+    count over a one year period. Can be joined with `fr_tpl2_claims`.
+  rows: 678013
+  cols: 12
+  type: table
+- path: https://raw.githubusercontent.com/kasaai/cellar/master/datasets/fr_tpl2_claims
+  name: fr_tpl2_claims
+  title: French Third-Party Liability (Claims)
+  description: |-
+    Claim amounts data for the French Third-Party Liability (Policies) dataset.
+  rows: 26639
+  cols: 2
+  type: table
