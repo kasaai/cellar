@@ -10,7 +10,8 @@
   {{ $pages := .Pages }}
   <!--{{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}-->
   {{ if not .IsHome}}
-  {{ range (where $pages "Section" "!=" "") }}
+  {{ $t := slice "list-doc"}}
+  {{ range (where $pages ".Params.tags" "intersect" $t) }}
   <li>
     <!--<span class="date">{{ .Date.Format "2006/01/02" }}</span>-->
     <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
