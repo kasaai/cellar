@@ -1,5 +1,6 @@
 ---
-title: lapse_study
+tags: ["list-doc"]
+title: SOA Lapse Study Data
 ---
 
 ## Description
@@ -10,7 +11,7 @@ Lapse experience data associated with Society of Actuaries' Report on the Lapse 
 
 ## Versions
 
-`ac0321c` (current)
+`85b7db9` (current)
 
 ## Columns
 

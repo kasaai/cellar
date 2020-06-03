@@ -1,4 +1,5 @@
 ---
+tags: ["list-doc"]
 title: French Third-Party Liability (Claims)
 ---
 
@@ -6,11 +7,11 @@ title: French Third-Party Liability (Claims)
 
 Identifier: `fr_tpl2_claims`
 
-Claim amounts data for the French Third-Party Liability (Policies) dataset.
+Claim amounts data for the French Third-Party Liability (Claims) dataset.
 
 ## Versions
 
-`0bab781` (current)
+`75a0af2` (current)
 
 ## Columns
 

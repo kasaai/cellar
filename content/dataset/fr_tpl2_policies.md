@@ -1,5 +1,6 @@
 ---
-title: fr_tpl2_policies
+tags: ["list-doc"]
+title: French Third-Party Liability (Policies)
 ---
 
 ## Description
@@ -12,7 +13,7 @@ Policy-level data for third-party liability (TPL) claims for an unknown
 
 ## Versions
 
-`684b350` (current)
+`6b456f4` (current)
 
 ## Columns
 
