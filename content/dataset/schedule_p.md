@@ -17,7 +17,7 @@ Triangle data from Schedule P for various companies, from accident years 1988-19
     - Other liability – occurrence
     - Product liability – occurrence
 
-## Versions
+## Vintages
 
 `ad0d405` (current)
 
