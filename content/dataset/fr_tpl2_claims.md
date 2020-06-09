@@ -9,7 +9,7 @@ Identifier: `fr_tpl2_claims`
 
 Claim amounts data for the French Third-Party Liability (Claims) dataset.
 
-## Versions
+## Vintages
 
 `75a0af2` (current)
 

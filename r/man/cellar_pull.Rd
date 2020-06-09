@@ -4,10 +4,12 @@
 \alias{cellar_pull}
 \title{Pull a Dataset from Cellar}
 \usage{
-cellar_pull(dataset)
+cellar_pull(dataset, vintage = NULL)
 }
 \arguments{
 \item{dataset}{Name of the dataset.}
+
+\item{vintage}{Desired vintage; defaults to the current release.}
 }
 \description{
 Pull a Dataset from Cellar

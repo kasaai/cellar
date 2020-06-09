@@ -9,7 +9,7 @@ Identifier: `lapse_study`
 
 Lapse experience data associated with Society of Actuaries' Report on the Lapse and Mortality Experience of Post-Level Premium Period Term Plans (2014).
 
-## Versions
+## Vintages
 
 `85b7db9` (current)
 

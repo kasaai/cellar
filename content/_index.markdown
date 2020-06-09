@@ -16,7 +16,7 @@ uniform interface, and collating documentations in one place.
 Cellar is organized according to the [data.txt specification](https://datatxt.org/),
 which outlines how websites describe their data content. The [datasets](dataset/),
 which are documented on this site,
-can be accesed via the [cellar R package](https://github.com/kasaai/cellar/tree/master/r).
+can be accessed via the [cellar R package](https://github.com/kasaai/cellar/tree/master/r).
 
 For example, to access the [Schedule P dataset](https://cellar.kasa.ai/dataset/schedule_p/), you can execute the
 following:
